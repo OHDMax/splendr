@@ -1,0 +1,142 @@
+/* 
+    Created on : 21.05.2015, 12:18:21
+    Author     : Maximilian Schulze
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+span {
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+img + p {
+    margin-top: 1em;
+}
+
+.nomargin {
+    margin-bottom: 0em;
+}
+
+.margintop {
+    margin-top: 2em;
+}
+
+.marginbottom {
+    margin-bottom: 1em;
+}
+
+.boards {
+    background-color: #E3E3E3;
+}
+
+
+.formattingreasons {
+    opacity: 0;
+}
+
+.navbar-brand.active {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.navbar.navbar-default {
+    margin-bottom: 0em;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+.jumbotron {
+    position: relative;
+    width: auto;
+    height: 37.5em;
+    background-image: url(../img/busystreet_soft.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron.noimage{
+    background-image: none;
+    background-color: #eaeaea;
+    color: black;
+}
+
+/*centered as per http://www.tutorialrepublic.com/faq/how-to-align-text-vertically-center-in-a-div-using-css.php*/
+.jumbotron div.container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+footer.navbar-default {
+    text-align:center;
+    padding-bottom: 1.3vh;
+    margin-bottom: 0;
+}
+
+footer.navbar-default .container-fluid {
+    display: inline-block;
+}
+
+
+/* CSS used here will be applied after bootstrap.css */
+img.avatar {
+    border: 1px solid #eee;
+}
+
+.only-bottom-margin {
+    margin-top: 0px;
+}
+
+.activity-mini {
+    padding-right: 15px;
+    float: left;
+}
+
+.thumbnail {
+    margin-bottom: 25px;
+    padding: 0;
+}
+.thumbnail h4 {
+    overflow: hidden;
+    margin: 0 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.thumbnail:hover .buttons-edit { 
+    visibility: visible; 
+}
+
+.thumbnail img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+}
+
+.buttons-edit {
+   position: absolute;
+   top: 10px;
+   right: 25px;
+   visibility: hidden;
+}
+
+.alert-info {
+  font-size: 2em;
+  text-align: center;
+}
